@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:src="@drawable/drs1"
+       />
+    <TextView
+        android:id="@+id/areaNameid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET AREA NAME "
+        android:textSize="50sp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+    <TextView
+        android:id="@+id/AreaDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20px"
+        android:text="Area Descp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="137dp"
+        android:scrollbars="vertical"/>
+
+
+</LinearLayout>
